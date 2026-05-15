@@ -1,0 +1,133 @@
+.hero {
+    background-color: #f2f7f8;
+    padding: 100px 50px;
+    z-index: 0;
+}
+.hero_head {
+    background-color: #f2f7f8;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+
+    .title {
+        color: #1f2a41;
+        width: 60%;
+    }
+
+    .title h1 {
+        font-size: 60px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+
+    }
+
+    .title img {
+        width: 50px;
+        transform: rotate(45deg);
+    }
+
+    .info {
+        width: 30%;
+        color: #3d4f60;
+    }
+}
+
+
+.hero_btn1 {
+    display: flex;
+    text-align: center;
+    background-color: #1734ca;
+    gap: 4px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+.hero_btn1 img {
+    width: 18px;
+}
+.hero_btn1:hover, .hero_btn2:hover{
+    transform: translateY(-3px);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.hero_btn2 {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    gap: 4px;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+}
+.spin_img {
+    transform: rotate(45deg);
+    animation: rotate 3s linear infinite;
+}
+
+.hero_main {
+    overflow: hidden;
+    margin-bottom: 7rem;
+}
+.hero_img {
+    position: relative;
+    width: 96%;
+    border-radius: 30px;
+    margin-top: 50px;
+    z-index: 0;
+}
+.hero_img2 {
+    position: absolute;
+    top: 27rem;
+    right: 1rem;
+    width: 26%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.hero_img1 {
+    position: absolute;
+    top: 39rem;
+    right: 22rem;
+    width: 31%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.hero_img3 {
+    position: absolute;
+    top: 29rem;
+    left: -5rem;
+    width: 28%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.hero_conimg {
+    position: relative;
+    width: 5rem;
+    transform: rotate(45deg);
+    animation: rotate 5s linear infinite;
+}
+.hero_conimg1 {
+    position: absolute;
+    top: 64.9rem;
+    left: 4.8rem;
+    width: 25px;
+    gap: 10px;
+}
+.conh2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

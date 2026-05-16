@@ -113,7 +113,7 @@
     position: absolute;
     width: 120px;
     top: 70rem;
-    right: 10.5rem;
+    right: 9.5rem;
     transform: rotate(45deg);
     animation: rotate 8s linear infinite;
     filter: blur(2px);
@@ -159,8 +159,6 @@
     right: 5rem;
     /* background-color: white; */
     filter: blur(4px);
-    brightness: 0.8;
-
 }
 
 .vestify_bottom_text {

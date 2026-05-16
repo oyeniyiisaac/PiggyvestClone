@@ -8,6 +8,7 @@ import './component/Hero.css'
 import './component/MainPage.css'
 // import Master from './component/Invest.jsx'
 import Invest from './component/Invest.jsx'
+import OpenHouseCard from './component/OpenHouseCard.jsx'
 
 const App = () => {
 
@@ -16,7 +17,8 @@ const App = () => {
             <NavBar />
             <Hero />
             <MainPage />
-            <Invest/>
+            <Invest />
+            <OpenHouseCard />
         </>
     )
 }

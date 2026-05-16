@@ -1,0 +1,56 @@
+.open_house_card {
+    background-color: #060f21;
+    justify-content: center;
+    place-items: center;
+    margin-bottom: 60px;
+    z-index: 0;
+    position: relative;
+    top: 118rem;
+    padding: 10rem 4rem;
+}
+
+.open_house_card1 {
+    border: 2px dashed #314161;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.open_house_card1_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    z-index: 1;
+    padding: 60px 60px 60px 0;
+    transition: transform 0.3s ease;
+}
+
+.open_house_card1_content_text {
+    padding: 20px 0 20px 6.5rem;
+}
+
+.open_house_card1_content_text img {
+    padding: 20px 0px;
+}
+
+.open_house_card1_content img {
+    width: 32rem;
+    object-fit: cover;
+}
+
+.open_house_btn {
+    background-color: #1734ca;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.open_house_card1_content:hover {
+    transform: perspective(900px) rotate(-0.5deg) translateY(-10px);
+    transform-origin: center;
+}

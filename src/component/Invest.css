@@ -7,6 +7,7 @@
     /* font-family: "Poppins", sans-serif; */
     color: white;
     z-index: 10;
+    padding-bottom: 10rem;
 
 }
 
@@ -102,11 +103,83 @@
     object-fit: cover;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.video-container img {
+    position: absolute;
+    width: 120px;
+    top: 70rem;
+    right: 10.5rem;
+    transform: rotate(45deg);
+    animation: rotate 8s linear infinite;
+    filter: blur(2px);
+}
+
 .vestify iframe {
-    width: 900px;
+    position: absolute;
+    top: 68rem;
+    width: 950px;
     max-width: calc(100% - 120px);
     aspect-ratio: 16 / 9;
     display: block;
-    margin: 0 60px 60px;
-    border: 0;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #4da8f3;
+    z-index: 1;
+
+}
+
+.vestify_bottom {
+    background-color: #f0f4ff;
+    position: absolute;
+    top: 78rem;
+    left: 0;
+    width: 100%;
+    padding: 60px;
+    z-index: 0;
+}
+
+.vestify_bottom .vest_video1 {
+    position: absolute;
+    top: 5rem;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    animation: rotate 20s linear infinite;
+    filter: blur(2px);
+}
+
+.vestify_bottom .vest_video2 {
+    position: absolute;
+    top: 14rem;
+    right: 5rem;
+    /* background-color: white; */
+    filter: blur(2px);
+}
+
+.vestify_bottom_text {
+    position: relative;
+    top: 25rem;
+    margin: 0 auto;
+    max-width: 920px;
+    padding: 24px 16px;
+    text-align: center;
+    color: #122231;
+}
+
+.vestify_bottom_text h1 {
+    font-size: 46px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    margin: 0 0 12px;
+}
+
+.vestify_bottom_text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 auto;
 }

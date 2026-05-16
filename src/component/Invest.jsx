@@ -22,9 +22,7 @@ const Invest = () => {
         return () => observer.disconnect()
     }, [])
 
-    const videoSrc = isVideoVisible
-        ? 'https://www.youtube.com/embed/-QiqJOe2h0s?autoplay=1&mute=1&loop=1&playlist=-QiqJOe2h0s&controls=1&playsinline=1'
-        : ''
+    const videoSrc = `https://www.youtube.com/embed/-QiqJOe2h0s?autoplay=${isVideoVisible ? 1 : 0}&mute=1&loop=1&playlist=-QiqJOe2h0s&controls=1&playsinline=1&start=0`
 
     return (
         <>
@@ -66,8 +64,10 @@ const Invest = () => {
 
                     {/* video */}
                 </div>
-                <div ref={videoContainerRef}>
+                <div ref={videoContainerRef} className='video-container'>
+                    <img src="src/img/vest_videoicon.svg" alt="" />
                     <iframe
+                        key={isVideoVisible}
                         src={videoSrc}
                         title="Investify video"
                         frameBorder="0"
@@ -75,8 +75,13 @@ const Invest = () => {
                         allowFullScreen
                     ></iframe>
                 </div>
-                <div className='bg-light'>
-                    fguij
+                <div className='vestify_bottom'>
+                    <img src="src/img/vest_video2.svg" className='vest_video1' alt="" />
+                    <img src="src/img/vest_video3.svg" className='vest_video2' alt="" />
+                    <div className='vestify_bottom_text'>
+                        <h1>Meet our <br />Saver of the Month</h1>
+                        <p>Every month, we put the spotlight on one saver. We ask them about their<br/> savings culture and how Piggyvest has helped them achieve their goals.</p>
+                    </div>
                 </div>
             </div>
         </>

@@ -5,8 +5,8 @@ const mainPage = () => {
             <div className='mainpage'>
                 <div className='mainpage_head'>
                     <span >Why Piggyvest?</span>
-                    <h1>Many ways to build your savings</h1>
-                    <p>Earn 12%–20% interest per annum when you save with any of these Piggyvest plans.</p>
+                    <h1 data-aos="fade-up">Many ways to build your savings</h1>
+                    <p data-aos="fade-down">Earn 12%–20% interest per annum when you save with any of these Piggyvest plans.</p>
                 </div>
                 <div className='card_box '>
                     <div className="card card_box_child card-child1" style={{width:"24rem"}}>

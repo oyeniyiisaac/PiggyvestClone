@@ -158,7 +158,9 @@
     top: 14rem;
     right: 5rem;
     /* background-color: white; */
-    filter: blur(2px);
+    filter: blur(4px);
+    brightness: 0.8;
+
 }
 
 .vestify_bottom_text {

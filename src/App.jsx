@@ -11,6 +11,7 @@ import Invest from './component/Invest.jsx'
 import OpenHouseCard from './component/OpenHouseCard.jsx'
 import Testimony from './component/Testimony.jsx'
 import Feature from './component/Feature.jsx'
+import Footer from './component/Footer.jsx'
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
             <OpenHouseCard />
             <Testimony />
             <Feature />
+            <Footer />
         </>
     )
 }

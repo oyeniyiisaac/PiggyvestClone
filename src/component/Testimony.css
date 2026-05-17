@@ -1,0 +1,55 @@
+.testimony-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10rem 60px;
+    background-color: #f2f7f8;
+    /* border-radius: 10px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 114rem;
+    z-index: 2;
+}
+
+.testimony-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:3.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #122231;
+}
+
+.testimony-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.testimony-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 385px;
+    text-align: left;
+    /* justify-content: center; */
+}
+
+.testimony-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.testimony-card h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #122231;
+}
+.testimony-card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #122231;
+}

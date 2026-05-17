@@ -9,6 +9,8 @@ import './component/MainPage.css'
 // import Master from './component/Invest.jsx'
 import Invest from './component/Invest.jsx'
 import OpenHouseCard from './component/OpenHouseCard.jsx'
+import Testimony from './component/Testimony.jsx'
+import Feature from './component/Feature.jsx'
 
 const App = () => {
 
@@ -19,6 +21,8 @@ const App = () => {
             <MainPage />
             <Invest />
             <OpenHouseCard />
+            <Testimony />
+            <Feature />
         </>
     )
 }

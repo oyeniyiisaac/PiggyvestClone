@@ -41,21 +41,21 @@ const NavBar = () => {
                                             </span>
                                         </div>
                                         <div className='dropdown-flex save'>
-                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_naira_icon_8c9b8c9b8c_8c9b8c9b8c.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_naira_icon_1c37272848_635abfe249/flex_naira_icon_1c37272848_635abfe249.png" alt="" />
                                             <span>
                                                 <strong>Flex Naira</strong>
                                                 <br />Flexible Savings
                                             </span>
                                         </div>
                                         <div className='dropdown-flex save'>
-                                            <img src="/src/img/save_five.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_dollar_icon_b180813700_8c5227fe52/flex_dollar_icon_b180813700_8c5227fe52.png" alt="" />
                                             <span>
                                                 <strong>Flex Dollar</strong>
                                                 <br />Dollar Savings
                                             </span>
                                         </div>
                                         <div className='dropdown-flex save'>
-                                            <img src="/src/img/save_six.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/house_icon_1_62b781ec0c/house_icon_1_62b781ec0c.png" alt="" />
                                             <span>
                                                 <strong>Home Money</strong>
                                                 <br />Semi Strict Wallet
@@ -80,7 +80,7 @@ const NavBar = () => {
                                 <ul className="dropdown-menu">
                                     <div className=' dropdown-grid'>
                                         <div className='dropdown-flex'>
-                                            <img src="/src/img/image copy.png" alt="" />
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMiIGhlaWdodD0iNTMiIHZpZXdCb3g9IjAgMCA1MyA1MyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAgMjAuMzg0NkMwIDkuMTI2NSA5LjEyNjUgMCAyMC4zODQ2IDBIMzIuNjE1NEM0My44NzM1IDAgNTMgOS4xMjY1IDUzIDIwLjM4NDZWMzIuNjE1NEM1MyA0My44NzM1IDQzLjg3MzUgNTMgMzIuNjE1NCA1M0gwVjIwLjM4NDZaIiBmaWxsPSIjRTBFRkZGIi8+CjxwYXRoIGQ9Ik0yMC41IDIyLjc1VjI5LjI1QzIwLjUgMzEuNDE2NyAyMS41ODMzIDMyLjUgMjMuNzUgMzIuNUgzMC4yNUMzMi40MTY3IDMyLjUgMzMuNSAzMS40MTY3IDMzLjUgMjkuMjVWMjZDMzMuNSAyNS4zNSAzMy4wNjY3IDI0LjkxNjcgMzIuNDE2NyAyNC45MTY3QzMxLjc2NjcgMjQuOTE2NyAzMS4zMzMzIDI0LjQ4MzMgMzEuMzMzMyAyMy44MzMzVjIyLjc1QzMxLjMzMzMgMjAuNTgzMyAzMC4yNSAxOS41IDI4LjA4MzMgMTkuNUgyMy43NUMyMS41ODMzIDE5LjUgMjAuNSAyMC41ODMzIDIwLjUgMjIuNzVaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiLz4KPHBhdGggZD0iTTI0LjgzMzQgMjMuODMzM0gyN00yNC44MzM0IDI4LjE2NjZIMjkuMTY2NyIgc3Ryb2tlPSIjMEQ2MEQ4IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTMwLjI1IDM2LjgzMzRIMjMuNzVDMTguMzMzMyAzNi44MzM0IDE2LjE2NjYgMzQuNjY2NyAxNi4xNjY2IDI5LjI1MDFWMjIuNzUwMUMxNi4xNjY2IDE3LjMzMzQgMTguMzMzMyAxNS4xNjY3IDIzLjc1IDE1LjE2NjdIMzAuMjVDMzUuNjY2NiAxNS4xNjY3IDM3LjgzMzMgMTcuMzMzNCAzNy44MzMzIDIyLjc1MDFWMjkuMjUwMUMzNy44MzMzIDM0LjY2NjcgMzUuNjY2NiAzNi44MzM0IDMwLjI1IDM2LjgzMzRaIiBzdHJva2U9IiMwRDYwRDgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==" alt="" />
                                             <span>Blog</span>
                                         </div>
                                         <div className='dropdown-flex'>

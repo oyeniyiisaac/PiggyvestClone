@@ -49,7 +49,7 @@ const mainPage = () => {
                     </div>
                     <div className="card card_box_child card-child4" style={{ width: "24rem" }}>
                         <div className="cardbody px-4 py-5">
-                            <img src="/src/img/card_icon4.svg" className="mb-3" alt="" />
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA0NSAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuMjUwMDkgMjQuNzVWNi43NUMyLjI1MDA5IDQuMjY0NzIgNC4yNjQ4MSAyLjI1IDYuNzUwMDkgMi4yNUgzOC4yNTAxQzQwLjczNTQgMi4yNSA0Mi43NTAxIDQuMjY0NzIgNDIuNzUwMSA2Ljc1VjI0Ljc1QzQyLjc1MDEgMjcuMjM1MyA0MC43MzU0IDI5LjI1IDM4LjI1MDEgMjkuMjVINi43NTAwOUM0LjI2NDgxIDI5LjI1IDIuMjUwMDkgMjcuMjM1MyAyLjI1MDA5IDI0Ljc1WiIgZmlsbD0id2hpdGUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNC41Ii8+CjxwYXRoIGQ9Ik0xMS4yNSAwVjBDMTEuMjUgNi4yMTMyIDYuMjEzMiAxMS4yNSAwIDExLjI1VjExLjI1IiBzdHJva2U9IiNFQTQxN0QiIHN0cm9rZS13aWR0aD0iNC41Ii8+CjxwYXRoIGQ9Ik0xMS4yNSAzMS41VjMxLjVDMTEuMjUgMjUuMjg2OCA2LjIxMzIgMjAuMjUgMCAyMC4yNVYyMC4yNSIgc3Ryb2tlPSIjRUE0MTdEIiBzdHJva2Utd2lkdGg9IjQuNSIvPgo8cGF0aCBkPSJNMzMuNzUgMFYwQzMzLjc1IDYuMjEzMiAzOC43ODY4IDExLjI1IDQ1IDExLjI1VjExLjI1IiBzdHJva2U9IiNFQTQxN0QiIHN0cm9rZS13aWR0aD0iNC41Ii8+CjxwYXRoIGQ9Ik0zMy43NSAzMS41VjMxLjVDMzMuNzUgMjUuMjg2OCAzOC43ODY4IDIwLjI1IDQ1IDIwLjI1VjIwLjI1IiBzdHJva2U9IiNFQTQxN0QiIHN0cm9rZS13aWR0aD0iNC41Ii8+CjxwYXRoIGQ9Ik0xOCAyMC4yNVYxMS4yNUwyNyAyMC4yNVYxMS4yNSIgc3Ryb2tlPSIjRUE0MTdEIiBzdHJva2Utd2lkdGg9IjQuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxsaW5lIHgxPSIxMy41IiB5MT0iMTUuNzUiIHgyPSIzMS41IiB5Mj0iMTUuNzUiIHN0cm9rZT0iI0VBNDE3RCIgc3Ryb2tlLXdpZHRoPSI0LjUiLz4KPC9zdmc+Cg==" className="mb-3" alt="" />
                             <h5 className="card-title mb-3">Emergency Savings</h5>
                             <p className="card-text">
                                 Save, transfer, manage, organise, and withdraw your money at any time.</p>
@@ -58,11 +58,11 @@ const mainPage = () => {
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" d="m9.929 4.858l6.364 6.364a1 1 0 0 1 0 1.414L9.929 19" />
                             </svg></a>
                         </div>
-                        <img src="/src/img/card_img4.png" className="cardimg" alt="..." />
+                        <img src="https://www.piggyvest.com/_next/static/images/offeringAlt4-748ada06ee336540b7d10cea324dbb65.png" className="cardimg" alt="..." />
                     </div>
                     <div className="card card_box_child card-child5" style={{ width: "24rem" }}>
                         <div className="cardbody px-4 py-5">
-                            <img src="/src/img/card_icon5.svg" className="mb-3" alt="" />
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDYiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCA0NiAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuMzAwMDUgMjUuMzAxOVY2LjkwMTg5QzIuMzAwMDUgNC4zNjEzNyA0LjM1OTU0IDIuMzAxODggNi45MDAwNSAyLjMwMTg4SDM5LjEwMDFDNDEuNjQwNiAyLjMwMTg4IDQzLjcwMDEgNC4zNjEzNyA0My43MDAxIDYuOTAxODlWMjUuMzAxOUM0My43MDAxIDI3Ljg0MjQgNDEuNjQwNiAyOS45MDE5IDM5LjEwMDEgMjkuOTAxOUg2LjkwMDA1QzQuMzU5NTQgMjkuOTAxOSAyLjMwMDA1IDI3Ljg0MjQgMi4zMDAwNSAyNS4zMDE5WiIgZmlsbD0id2hpdGUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iNC42MDAwMSIvPgo8cGF0aCBkPSJNMTEuNSAwLjAwMTk1MzEyVjAuMDAxOTUzMTJDMTEuNSA2LjM1MzIzIDYuMzUxMjggMTEuNTAyIDAgMTEuNTAyVjExLjUwMiIgc3Ryb2tlPSIjMDYwRjIxIiBzdHJva2Utd2lkdGg9IjQuNjAwMDEiLz4KPHBhdGggZD0iTTExLjUgMzIuMjAyVjMyLjIwMkMxMS41IDI1Ljg1MDcgNi4zNTEyOCAyMC43MDIgMCAyMC43MDJWMjAuNzAyIiBzdHJva2U9IiMwNjBGMjEiIHN0cm9rZS13aWR0aD0iNC42MDAwMSIvPgo8cGF0aCBkPSJNMzQuNSAwLjAwMTk1MzEyVjAuMDAxOTUzMTJDMzQuNSA2LjM1MzIzIDM5LjY0ODggMTEuNTAyIDQ2LjAwMDEgMTEuNTAyVjExLjUwMiIgc3Ryb2tlPSIjMDYwRjIxIiBzdHJva2Utd2lkdGg9IjQuNjAwMDEiLz4KPHBhdGggZD0iTTM0LjUgMzIuMjAyVjMyLjIwMkMzNC41IDI1Ljg1MDcgMzkuNjQ4OCAyMC43MDIgNDYuMDAwMSAyMC43MDJWMjAuNzAyIiBzdHJva2U9IiMwNjBGMjEiIHN0cm9rZS13aWR0aD0iNC42MDAwMSIvPgo8cGF0aCBkPSJNMjcuNjAwMSAxMS41MDJIMjAuNzAwMUMxOS40Mjk4IDExLjUwMiAxOC40MDAxIDEyLjUzMTcgMTguNDAwMSAxMy44MDJWMTMuODAyQzE4LjQwMDEgMTUuMDcyMiAxOS40Mjk4IDE2LjEwMiAyMC43MDAxIDE2LjEwMkgyNS4zMDAxQzI2LjU3MDMgMTYuMTAyIDI3LjYwMDEgMTcuMTMxNyAyNy42MDAxIDE4LjQwMlYxOC40MDJDMjcuNjAwMSAxOS42NzIyIDI2LjU3MDQgMjAuNzAyIDI1LjMwMDEgMjAuNzAySDE4LjQwMDEiIHN0cm9rZT0iIzA2MEYyMSIgc3Ryb2tlLXdpZHRoPSI0LjYwMDAxIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGxpbmUgeDE9IjIzIiB5MT0iNi45MDE5OCIgeDI9IjIzIiB5Mj0iMjUuMzAyIiBzdHJva2U9IiMwNjBGMjEiIHN0cm9rZS13aWR0aD0iNC42MDAwMSIvPgo8L3N2Zz4K" className="mb-3" alt="" />
                             <h5 className="card-title mb-3"> Dollar Savings</h5>
                             <p className="card-text">
                                 Save and grow your money in Dollars.</p>
@@ -71,11 +71,11 @@ const mainPage = () => {
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" d="m9.929 4.858l6.364 6.364a1 1 0 0 1 0 1.414L9.929 19" />
                             </svg></a>
                         </div>
-                        <img src="/src/img/card_img5.png" className="cardimg" alt="..." />
+                        <img src="https://www.piggyvest.com/_next/static/images/offeringAlt5-05500e54811054e4ee8412fd6f15fd7f.png" className="cardimg" alt="..." />
                     </div>
                     <div className="card card_box_child card-child6" style={{ width: "24rem" }}>
                         <div className="cardbody px-4 py-5">
-                            <img src="/src/img/card_icon6.svg" className="mb-3" alt="" />
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzgiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAzOCAzNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI5LjY2NjcgMzIuNzVIOC42NjY3NUM2LjczMzc1IDMyLjc1IDUuMTY2NzUgMzEuMTgzIDUuMTY2NzUgMjkuMjVWMjIuMjVWMTEuNzVMMTkuMTY2NyAzTDMzLjE2NjcgMTEuNzVWMjkuMjVDMzMuMTY2NyAzMS4xODMgMzEuNTk5NyAzMi43NSAyOS42NjY3IDMyLjc1WiIgZmlsbD0id2hpdGUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMy41Ii8+CjxjaXJjbGUgY3g9IjE5LjE2NjciIGN5PSIyMC41IiByPSIzLjUiIHN0cm9rZT0iI0YxNjgxOCIgc3Ryb2tlLXdpZHRoPSIzLjUiLz4KPHBhdGggZD0iTTE5LjE2NjcgMjcuNUMyMi4wNjYyIDI3LjUgMjQuNDE2NyAyOS44NTA1IDI0LjQxNjcgMzIuNzVIMTMuOTE2N0MxMy45MTY3IDI5Ljg1MDUgMTYuMjY3MyAyNy41IDE5LjE2NjcgMjcuNVoiIGZpbGw9IiNGMTY4MTgiIHN0cm9rZT0iI0YxNjgxOCIgc3Ryb2tlLXdpZHRoPSIzLjUiLz4KPHBhdGggZD0iTTEuNjY2NzUgMTMuNUwxOS4xNjY3IDNMMzYuNjY2NyAxMy41IiBzdHJva2U9IiNGMTY4MTgiIHN0cm9rZS13aWR0aD0iMy41Ii8+Cjwvc3ZnPgo=" className="mb-3" alt="" />
                             <h5 className="card-title mb-3">Rent Savings</h5>
                             <p className="card-text">
                                 Plan for your rent and household expenses.</p>
@@ -84,7 +84,7 @@ const mainPage = () => {
                                 <path fill="none" stroke="currentColor" stroke-linecap="round" d="m9.929 4.858l6.364 6.364a1 1 0 0 1 0 1.414L9.929 19" />
                             </svg></a>
                         </div>
-                        <img src="/src/img/card_img6.png" className="cardimg" alt="..." />
+                        <img src="https://www.piggyvest.com/_next/static/images/offeringAlt6-955057c6355484efe27798da6084f35c.png" className="cardimg" alt="..." />
                     </div>
                 </div>
                 <div className="rate-sec">

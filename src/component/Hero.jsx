@@ -27,7 +27,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero_main">
-                    <img src="/src/img/hero_img.png" className="hero_img" alt="" data-aos="zoom-out" />
+                    <img src="https://www.piggyvest.com/_next/static/images/headerBGhome-9c6bf21c25fa09992d4dffc8395557b0.avif" className="hero_img" alt="" data-aos="zoom-out" />
                     <div>
                         <img src="/src/img/hero_img1.png" className="hero_img1" alt="" data-aos="fade-down-right" />
                     </div>

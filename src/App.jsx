@@ -19,12 +19,12 @@ const App = () => {
         <>
             <NavBar />
             <Hero />
-            <MainPage />
-            <Invest />
-            <OpenHouseCard />
-            <Testimony />
-            <Feature />
-            <Footer />
+            {/* <MainPage /> */}
+            {/* <Invest /> */}
+            {/* <OpenHouseCard /> */}
+            {/* <Testimony /> */}
+            {/* <Feature /> */}
+            {/* <Footer /> */}
         </>
     )
 }

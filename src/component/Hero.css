@@ -22,7 +22,7 @@
         font-weight: 900;
         font-style: normal;
     }
-    .title .break {
+    .title .break .break1 {
         display: none;
     }
 
@@ -168,18 +168,21 @@
 
     .hero_head .title h1 {
         margin: 48px 0 52px;
-        font-size: clamp(4.4rem, 11vw, 3.1rem);
+        font-size: clamp(3.9rem, 11vw, 5.1rem);
         font-weight: 700;
         line-height: 1.2;
 
         img {
-            width: 90px;
+            width: 70px;
         }
 
         br {
             display: none;
         }
         .break {
+            display: flex;
+        }
+        .break1 {
             display: flex;
         }
     }
@@ -229,7 +232,7 @@
     .hero_img2 {
         position: absolute;
         top: 2.4rem;
-        right: -2rem!important;
+        right: -1rem!important;
         width: 24%;
     }
 

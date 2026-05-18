@@ -19,8 +19,8 @@ const Footer = () => {
                 <hr />
                 <div className='footer-grid'>
                     <div>
-                        <img src="src/img/white-logo.svg" width="80px"  alt="" />
-                        <p className='d-flex align-items-start'>The better way to <br /> save and invest.</p>
+                        <img src="https://storage.googleapis.com/new-abeg-avatar-dev/piggyvest-cms-staging/white_logo_c3427147fd/white_logo_c3427147fd.svg" width="80px"  alt="" />
+                        <span className='d-flex align-items-start'>The better way to <br /> save and invest.</span>
                         <img src="https://www.piggyvest.com/_next/static/images/NDPR-924e6ec526d93fbd8876c446ef856376.avif  " width="120px" alt="" />
                     </div>
                     <div className='d-flex flex-column align-items-start'>
@@ -63,7 +63,7 @@ const Footer = () => {
                             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDMyIDMwIiBmaWxsPSJub25lIj4KICA8cGF0aCBkPSJNMTguNjc0NyA5LjU1Mjc4QzE4LjE0ODkgOC45NTI0OSAxNy44NTkxIDguMTgxNTcgMTcuODU5MyA3LjM4MzU0SDE1LjQ4MjRWMTYuOTIyQzE1LjQ2NDEgMTcuNDM4MiAxNS4yNDYxIDE3LjkyNzEgMTQuODc0NSAxOC4yODU4QzE0LjUwMjkgMTguNjQ0NSAxNC4wMDY2IDE4Ljg0NSAxMy40OTAxIDE4Ljg0NTFDMTIuMzk3OCAxOC44NDUxIDExLjQ5MDEgMTcuOTUyOCAxMS40OTAxIDE2Ljg0NTFDMTEuNDkwMSAxNS41MjIgMTIuNzY3IDE0LjUyOTcgMTQuMDgyNCAxNC45Mzc0VjEyLjUwNjZDMTEuNDI4NSAxMi4xNTI4IDkuMTA1NDcgMTQuMjE0MyA5LjEwNTQ3IDE2Ljg0NTFDOS4xMDU0NyAxOS40MDY2IDExLjIyODUgMjEuMjI5NyAxMy40ODI0IDIxLjIyOTdDMTUuODk3OCAyMS4yMjk3IDE3Ljg1OTMgMTkuMjY4MiAxNy44NTkzIDE2Ljg0NTFWMTIuMDA2NkMxOC44MjMyIDEyLjY5ODggMTkuOTgwNCAxMy4wNzAyIDIxLjE2NyAxMy4wNjgyVjEwLjY5MTJDMjEuMTY3IDEwLjY5MTIgMTkuNzIwOSAxMC43NjA1IDE4LjY3NDcgOS41NTI3OFoiIGZpbGw9IiNCMEM0RUMiLz4KPC9zdmc+Cg==" alt="" />
                             <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMSIgaGVpZ2h0PSIzMCIgdmlld0JveD0iMCAwIDMxIDMwIiBmaWxsPSJub25lIj4KICA8cGF0aCBkPSJNMTIuOTAwNyAxNy4yNzM3TDE3LjYyODUgMTQuMzA2NkwxMi45MDA3IDExLjMzOTZWMTcuMjczN1pNMjMuNDMxMSA5LjUyOTdDMjMuNTQ5NSA5Ljk5NDUzIDIzLjYzMTUgMTAuNjE3NiAyMy42ODYyIDExLjQwODhDMjMuNzQ5OSAxMi4yIDIzLjc3NzMgMTIuODgyNCAyMy43NzczIDEzLjQ3NTlMMjMuODMxOSAxNC4zMDY2QzIzLjgzMTkgMTYuNDcyNiAyMy42ODYyIDE4LjA2NDkgMjMuNDMxMSAxOS4wODM1QzIzLjIwMzQgMTkuOTczNyAyMi42NzUgMjAuNTQ3MyAyMS44NTUyIDIwLjc5NDVDMjEuNDI3IDIwLjkyMzEgMjAuNjQzNiAyMS4wMTIxIDE5LjQ0MTIgMjEuMDcxNUMxOC4yNTcgMjEuMTQwNyAxNy4xNzMgMjEuMTcwNCAxNi4xNzEgMjEuMTcwNEwxNC43MjI2IDIxLjIyOTdDMTAuOTA1OCAyMS4yMjk3IDguNTI4MjYgMjEuMDcxNSA3LjU5IDIwLjc5NDVDNi43NzAxNiAyMC41NDczIDYuMjQxODIgMTkuOTczNyA2LjAxNDA5IDE5LjA4MzVDNS44OTU2NyAxOC42MTg3IDUuODEzNjkgMTcuOTk1NiA1Ljc1OTAzIDE3LjIwNDRDNS42OTUyNyAxNi40MTMyIDUuNjY3OTQgMTUuNzMwOCA1LjY2Nzk0IDE1LjEzNzRMNS42MTMyOCAxNC4zMDY2QzUuNjEzMjggMTIuMTQwNyA1Ljc1OTAzIDEwLjU0ODQgNi4wMTQwOSA5LjUyOTdDNi4yNDE4MiA4LjYzOTU5IDYuNzcwMTYgOC4wNjU5NiA3LjU5IDcuODE4NzFDOC4wMTgxNCA3LjY5MDE0IDguODAxNTQgNy42MDExMyAxMC4wMDQgNy41NDE3OUMxMS4xODgyIDcuNDcyNTYgMTIuMjcyMiA3LjQ0Mjg5IDEzLjI3NDIgNy40NDI4OUwxNC43MjI2IDcuMzgzNTRDMTguNTM5NCA3LjM4MzU0IDIwLjkxNjkgNy41NDE3OSAyMS44NTUyIDcuODE4NzFDMjIuNjc1IDguMDY1OTYgMjMuMjAzNCA4LjYzOTU5IDIzLjQzMTEgOS41Mjk3WiIgZmlsbD0iI0IwQzRFQyIvPgo8L3N2Zz4K" alt="" />
                         </div>
-                        <p className='align-items-start'>Tesmot house, Abdulrahman <br /> Okene close, Victoria Island,<br /> Lagos, Nigeria.</p>
+                        <span className='align-items-start'>Tesmot house, Abdulrahman <br /> Okene close, Victoria Island,<br /> Lagos, Nigeria.</span>
                         <span>contact@piggyvest.com</span>
                         <span>+234 7009 339 339</span>
                     </div>

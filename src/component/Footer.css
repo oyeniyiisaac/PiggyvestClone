@@ -115,6 +115,12 @@ footer hr {
     grid-template-columns: 1.2fr repeat(4, 1fr) 1.5fr;
     margin-top: 0;
 }
+.footer-grid span {
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #79b3ec;
+    /* justify-content: center; */
+}
 
 .footer-grid>div {
     border-right: 1px dashed #1d2d4d;

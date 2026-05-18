@@ -150,7 +150,8 @@
         }
 
         p {
-            font-size: 14px;
+            font-size: 18px;
+            font-weight: 400;
         }
     }
 
@@ -162,11 +163,48 @@
 
     .card_box_child {
         width: 100%;
+        margin-top: 20px;
     }
 
     .card_box_child:hover {
         background-color: #d8f4ff;
         transform: rotateX(-5deg);
+        box-shadow: 4px 12px 28px rgba(0, 0, 0, 0.22);
+    }
+}
+
+@media (min-width: 768px) and (max-width:850px) {
+    .mainpage {
+        padding: 10px 20px;
+    }
+
+    .mainpage_head {
+        text-align: center;
+
+        h1 {
+            font-size: 45px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+
+    .card_box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+        margin: 50px 170px;
+    }
+
+    .card_box_child {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .card_box_child:hover {
+        background-color: #d8f4ff;
+        transform: rotateX(-2deg);
         box-shadow: 4px 12px 28px rgba(0, 0, 0, 0.22);
     }
 }

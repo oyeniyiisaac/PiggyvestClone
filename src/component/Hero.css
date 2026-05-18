@@ -78,7 +78,7 @@
 .hero_main {
     position: relative;
     overflow: hidden;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .hero_img {
@@ -125,10 +125,10 @@
 
 .hero_conimg1 {
     position: absolute;
-    top: 64.9rem;
-    left: 4.8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 25px;
-    gap: 10px;
 }
 
 .conh2 {
@@ -207,8 +207,10 @@
     }
 
     .hero_main {
-        margin-bottom: 0 !important;
-        min-height: 44rem;
+        margin-bottom: 5rem !important;
+    }
+    .position-relative {
+        margin-bottom: 2rem;
     }
 
     .hero_img {
@@ -252,8 +254,15 @@
         text-align: center;
     }
 
+    .hero-con1 p {
+        font-size: 16px;
+    }
+    .hero-con1 p br {
+        display: none;
+    }
+
     .conh2 {
-        font-size: 26px;
+        font-size: 46px;
         text-align: center;
     }
 }
@@ -294,9 +303,7 @@
         flex-wrap: wrap;
     }
 
-    .hero_main {
-        min-height: 52rem;
-    }
+    /* removed min-height for .hero_main to fix huge gap */
 
     .hero_img2 {
         /* top: 26rem; */

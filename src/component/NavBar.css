@@ -70,7 +70,7 @@
 
 }
 
-@media (min-width: 320px) and (max-width: 858px) {
+@media (min-width: 320px) and (max-width: 440px){
     .navbar {
         width: 100%;
         padding: 10px 20px;

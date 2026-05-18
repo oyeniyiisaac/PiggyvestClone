@@ -20,28 +20,28 @@ const NavBar = () => {
                                 <ul className="dropdown-menu">
                                     <div className=' dropdown-grid'>
                                         <div className='dropdown-flex save'>
-                                            <img src="/src/img/save_one.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/piggybank_icon_bd14f39497_7ef36812cd/piggybank_icon_bd14f39497_7ef36812cd.png" alt="" />
                                             <span>
                                                 <strong >Piggybank</strong>
                                                 <br />Automated Savings
                                             </span>
                                         </div>
                                         <div className='dropdown-flex save'>
-                                            <img src="/src/img/save_two.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/safelock_icon_7595628576_b010a4fee8/safelock_icon_7595628576_b010a4fee8.png" alt="" />
                                             <span>
                                                 <strong>Savelock</strong>
                                                 <br />Fixed Savings
                                             </span>
                                         </div>
                                         <div className='dropdown-flex save'>
-                                            <img src="/src/img/save_three.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/targets_icon_a382a2df4f_10353cd31e/targets_icon_a382a2df4f_10353cd31e.png" alt="" />
                                             <span>
                                                 <strong>Target Savings</strong>
                                                 <br />Goal-oriented Savings
                                             </span>
                                         </div>
                                         <div className='dropdown-flex save'>
-                                            <img src="/src/img/save_four.png" alt="" />
+                                            <img src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/flex_naira_icon_8c9b8c9b8c_8c9b8c9b8c.png" alt="" />
                                             <span>
                                                 <strong>Flex Naira</strong>
                                                 <br />Flexible Savings

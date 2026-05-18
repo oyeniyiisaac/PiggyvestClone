@@ -107,7 +107,7 @@ const NavBar = () => {
                                 </ul>
                             </li>
                         </ul>
-                        <div className='d-flex gap-3'>
+                        <div className='d-flex gap-3 nav-btn'>
                             <button className="btn btn_one" >Create free account</button>
                             <button className="btn btn-outline-dark" type="submit">Sign in</button>
                         </div>

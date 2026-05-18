@@ -61,3 +61,35 @@
     background-color: #0c1825;
     color: white;
 }
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        padding: 10px 20px;
+        overflow: hidden;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 858px) {
+    .navbar {
+        width: 100%;
+        padding: 10px 20px;
+        overflow: hidden;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        place-items: center;
+    }
+
+    .dropdown-grid {
+        width: 100%;
+        height: auto;
+    }
+    .nav-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

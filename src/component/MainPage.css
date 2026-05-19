@@ -129,6 +129,7 @@
     padding: 12px 24px;
     font-weight: 500;
     transition: transform 0.3s ease;
+    margin-top: 80px;
     /* margin-bottom: 10px; */
 }
 .rate-btn:hover {

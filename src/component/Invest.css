@@ -320,11 +320,12 @@
     .video-container img {
         position: absolute;
         width: 120px;
-        top: 165rem;
+        top: 150rem;
         right: -1.5rem;
         transform: rotate(45deg);
         animation: rotate 8s linear infinite;
         filter: blur(2px);
+        z-index: 1;
     }
 
     .vestify_bottom {

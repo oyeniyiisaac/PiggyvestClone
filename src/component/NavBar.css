@@ -76,7 +76,7 @@
         right: 0;
         width: 100%;
         padding: 10px 20px;
-        z-index: 9999;
+        /* z-index: 9999; */
     }
     .navbar-nav {
         display: flex;

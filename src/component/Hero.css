@@ -22,7 +22,11 @@
         font-weight: 900;
         font-style: normal;
     }
-    .title .break .break1 {
+    .title .break {
+        display: none;
+    }
+
+    .break1 {
         display: none;
     }
 

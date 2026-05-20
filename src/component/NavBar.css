@@ -1,5 +1,7 @@
 .navbar {
     background-color: #f2f7f8;
+    box-sizing: border-box;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -13,7 +15,7 @@
 .dropdown-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 450px;
+    width: min(450px, calc(100vw - 2rem));
     margin: 5px;
     height: 200px;
     gap: 20px;

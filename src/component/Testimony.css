@@ -13,7 +13,7 @@
 
 .testimony-title {
     font-family: 'Bebas Neue', sans-serif;
-    font-size:3.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
     color: #122231;
@@ -26,6 +26,7 @@
     gap: 2rem;
     justify-content: center;
 }
+
 .testimony-card {
     background-color: #fff;
     border-radius: 10px;
@@ -42,14 +43,40 @@
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+
 .testimony-card h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
     color: #122231;
 }
+
 .testimony-card p {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #122231;
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+    .testimony-container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 10rem 40px;
+        background-color: #f2f7f8;
+        /* border-radius: 10px; */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: 31rem;
+        z-index: 2;
+    }
+
+    .testimony-title {
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.32rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color: #122231;
+    }
 }

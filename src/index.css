@@ -1,3 +1,6 @@
 .blog{
   align-items: center;
 }
+body {
+  overflow-x: hidden;
+}

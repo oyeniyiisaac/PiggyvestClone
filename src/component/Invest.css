@@ -320,7 +320,7 @@
     .video-container img {
         position: absolute;
         width: 120px;
-        top: 155rem;
+        top: 150rem;
         right: 0;
         transform: rotate(45deg);
         animation: rotate 8s linear infinite;

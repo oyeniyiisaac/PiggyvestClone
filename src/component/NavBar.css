@@ -63,6 +63,7 @@
     background-color: #0c1825;
     color: white;
 }
+
 @media (max-width: 768px) {
     .navbar {
         width: 100%;
@@ -70,7 +71,7 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 850px){
+@media (min-width: 320px) and (max-width: 850px) {
     .navbar {
         position: fixed !important;
         top: 0 !important;
@@ -81,6 +82,7 @@
         overflow-x: hidden;
         /* z-index: 9999; */
     }
+
     .navbar-nav {
         display: flex;
         flex-direction: column;
@@ -92,6 +94,7 @@
         width: 100%;
         height: auto;
     }
+
     .nav-btn {
         display: flex;
         flex-direction: column;

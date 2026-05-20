@@ -76,6 +76,7 @@
         right: 0 !important;
         width: 100% !important;
         padding: 10px 20px;
+        overflow-x: hidden;
         /* z-index: 9999; */
     }
     .navbar-nav {

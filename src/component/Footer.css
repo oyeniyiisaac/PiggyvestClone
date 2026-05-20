@@ -115,6 +115,7 @@ footer hr {
     grid-template-columns: 1.2fr repeat(4, 1fr) 1.5fr;
     margin-top: 0;
 }
+
 .footer-grid span {
     font-size: 0.85rem;
     font-weight: 300;
@@ -132,6 +133,89 @@ footer hr {
     border-left: 1px dashed #1d2d4d;
 }
 
+/* Responsive: tablets */
+@media (max-width: 1024px) {
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-rotating-img {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .footer-content2 h1 {
+        font-size: 2.2rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .footer-grid>div {
+        padding: 20px;
+    }
+}
+
+/* Responsive: phones */
+@media (max-width: 640px) {
+    footer {
+        padding: 40px 12px;
+        margin-top: 4rem;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .footer-rotating-img {
+        width: 200px;
+    }
+
+    .footer-content2 h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 12px 0;
+    }
+
+    .footer-content2 img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 12px;
+    }
+
+    .footer-grid>div {
+        border-right: none;
+        border-left: none;
+        padding: 16px 8px;
+        text-align: center;
+    }
+
+    .footer-btn {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footer_btn1,
+    .footer_btn2 {
+        width: 100%;
+    }
+}
+
 @media (max-width: 992px) {
     .footer-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -146,5 +230,110 @@ footer hr {
 @media (max-width: 640px) {
     .footer-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    footer {
+        position: relative;
+        top: 6rem;
+        background-color: #060f21;
+        color: #fff;
+        padding: 60px 20px;
+        text-align: center;
+        z-index: 2;
+        overflow: hidden;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* max-width: 1200px; */
+        /* margin: 0 auto; */
+    }
+
+    .footer-rotating-img {
+        display: none;
+    }
+
+    .footer-content2 {
+        padding-top: 18rem;
+
+        img {
+            /* width: 100px; */
+            height: auto;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-family: 'bebas neue', sans-serif;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+    }
+
+    .footer-content .footer-img2 {
+        display: none;
+        /* background-color: #fff; */
+        /* position: absolute; */
+        /* right: -15rem; */
+        /* width: 250px; */
+        height: auto;
+        overflow: hidden;
+    }
+
+    .footer-btn {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        gap: 10px;
+        border: 1.5px dashed #1d2d4d;
+        border-radius: 10px;
+    }
+
+    .footer_btn1 {
+        background-color: #1734ca;
+        align-items: center;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        padding: 10px 20px;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0;
+    }
+
+    .footer-grid span {
+        font-size: 0.85rem;
+        font-weight: 300;
+        color: #79b3ec;
+        /* justify-content: center; */
+    }
+
+    .footer-grid>div {
+        /* border-right: none; */
+        padding: 34px 20px;
+        text-align: left;
+    }
+
+    .footer-grid>div:first-child {
+        border-left: none;
+    }
+
+    footer hr {
+        border: 0;
+        border-top: none;
+        margin: 24px 0 0;
     }
 }

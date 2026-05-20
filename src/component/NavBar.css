@@ -59,6 +59,89 @@
     padding: 10px 24px;
 }
 
+/* Medium devices (tablets) */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 10px 24px;
+    }
+
+    .dropdown-grid {
+        width: min(420px, calc(100vw - 3rem));
+        gap: 16px;
+    }
+
+    .navbar-brand img {
+        max-width: 140px;
+        height: auto;
+    }
+}
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+    .navbar {
+        padding: 8px 12px;
+    }
+
+    .container-fluid {
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .navbar-brand img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: stretch;
+    }
+
+    .dropdown-grid {
+        grid-template-columns: 1fr;
+        width: calc(100vw - 2rem);
+        gap: 10px;
+        height: auto;
+    }
+
+    .dropdown-flex {
+        padding: 8px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .dropdown-flex img {
+        width: 40px;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .nav-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .nav-btn .btn {
+        width: 100%;
+    }
+
+    /* Ensure long text wraps and doesn't force overflow */
+    .dropdown-flex span {
+        word-break: break-word;
+    }
+}
+
+/* Make images inside dropdowns constrained */
+.dropdown-flex img {
+    max-width: 36px;
+    width: 36px;
+    height: auto;
+}
+
 .btn_one:hover {
     background-color: #0c1825;
     color: white;

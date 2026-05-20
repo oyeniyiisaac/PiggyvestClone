@@ -24,7 +24,7 @@ const App = () => {
             <OpenHouseCard />
             <Testimony />
             <Feature />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

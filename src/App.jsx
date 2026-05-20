@@ -21,7 +21,7 @@ const App = () => {
             <Hero />
             <MainPage />
             <Invest />
-            {/* <OpenHouseCard /> */}
+            <OpenHouseCard />
             {/* <Testimony /> */}
             {/* <Feature /> */}
             {/* <Footer /> */}
